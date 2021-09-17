@@ -4,7 +4,7 @@ module.exports = {
 	// Set default mocha options here, use special reporters etc.
 	mocha: {
 		useColors: false,
-		reporter: 'mochawesome-report-generator',
+		reporter: 'mochawesome',
 		reporterOptions: {
 			reportFilename: '~/.test/result.json',
 			saveJSON: true,
@@ -12,9 +12,5 @@ module.exports = {
 	},
 
 	// Configure your compilers
-	compilers: {
-		solc: {
-			version: '^0.8.0',
-		},
-	},
+	compilers: {},
 }
