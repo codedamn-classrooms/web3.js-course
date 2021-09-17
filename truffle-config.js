@@ -6,7 +6,7 @@ module.exports = {
 		useColors: false,
 		reporter: 'mochawesome',
 		reporterOptions: {
-			reportFilename: '$UNIT_TEST_OUTPUT_FILE',
+			reportFilename: process.env.UNIT_TEST_OUTPUT_FILE,
 			saveJSON: true,
 		},
 	},
