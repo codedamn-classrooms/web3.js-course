@@ -8,6 +8,7 @@ module.exports = {
 		reporterOptions: {
 			reportFilename: process.env.UNIT_TEST_OUTPUT_FILE,
 			saveJSON: true,
+			saveHTML: false
 		},
 	},
 
