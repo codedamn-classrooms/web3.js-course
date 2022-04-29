@@ -1,7 +1,4 @@
 # Tabs opened at boot
-tabs: ['script.js']
+tabs: ['client/src/getWeb3.js', 'truffle-config.js', 'client/src/index.js']
 # Command run on terminal one
-terminal-one: cd client && yarn install && yarn dev
-
-# Command run on terminal two
-terminal-two: 'echo "hello world"'
+terminal-one: cd client && npm install && npm run start
