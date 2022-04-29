@@ -1,17 +1,12 @@
+const path = require("path");
+
 module.exports = {
-	networks: {},
-
-	// Set default mocha options here, use special reporters etc.
-	mocha: {
-		useColors: false,
-		reporter: 'mochawesome',
-		reporterOptions: {
-			reportFilename: process.env.UNIT_TEST_OUTPUT_FILE,
-			saveJSON: true,
-			saveHTML: false
-		},
-	},
-
-	// Configure your compilers
-	compilers: {},
-}
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  // to customize your Truffle configuration!
+  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
+  networks: {
+    develop: {
+      port: 8545
+    }
+  }
+};
