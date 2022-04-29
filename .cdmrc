@@ -1,0 +1,7 @@
+# Tabs opened at boot
+tabs: ['script.js']
+# Command run on terminal one
+terminal-one: cd client && yarn install && yarn dev
+
+# Command run on terminal two
+terminal-two: 'echo "hello world"'
