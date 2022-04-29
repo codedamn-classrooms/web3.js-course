@@ -2,3 +2,4 @@
 tabs: ['client/src/getWeb3.js', 'truffle-config.js', 'client/src/index.js']
 # Command run on terminal one
 terminal-one: cd client && npm install && npm run start
+terminal-two: truffle develop
